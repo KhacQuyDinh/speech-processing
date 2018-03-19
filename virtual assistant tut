@@ -1,0 +1,46 @@
+#TO run ide. Here we use IDE instead of the command line.
+idle
+
+#In the ide, you can use funcs as a ide. 
+
+#Pip lets us install python libraries
+#Wolfram Alpha and Wikipedia apis help our application get data
+#WxPython give our application a window
+
+#Install wxPython-Phoenix (Linux):
+pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04 wxPython
+
+pip install wikipedia
+
+pip install wolframalpha
+
+#login wolframalpha api.
+link: products.wolframalpha.com/api/
+api_key: 267KEA-KQ5YKTYEVR
+
+#retrive data with wikipedia api.
+link: https://pypi.python.org/pypi/wikipedia
+full doc: https://wikipedia.readthedocs.io/en/latest/code.html
+
+#espeak for text to speech
++ import: from espeak import espeak
++ install: sudo apt-get install espeak
++ install the other one: sudo pip install pyttsx
+
+#speech recognition of Google.
+install: pip install SpeechRecognition
+page: https://pypi.python.org/pypi/SpeechRecognition/3.4.3
++ extra 1:
+sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+sudo apt-get install ffmpeg libav-tools
+[sudo] pip install pyaudio
++ extra 2:
+sudo apt-get install jackd2
+sudo dpkg-reconfigure -p high jackd2
+
+
+
+
+
+
+
