@@ -1,0 +1,14 @@
+#Collect audio Aw for each word w in vocab.
++Apply signal processing => A'w. Called template for word w (Can collect multiple templates for each word).
+
++Test time: Given audio Atest, Apply signal processingto A'test.
+
++For each w, compute distance(A'test, A'w) using DTW and 
+return w with the smallest distance.
+
++Complexity: O(states + arc) non linear and quadratic time for dynamic programming.
+
++Can model longer-distance acoustic dependencies . . .
+As compared to conventional GMM/HMM systems. But hasn’t gone anywhere yet.
+
++basic definition: Distance and Framedist
