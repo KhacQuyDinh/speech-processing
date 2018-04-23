@@ -1,0 +1,19 @@
+Most "consumer grade" speaker recognition systems use advanced processing to extract a variety of features that describe the sound over both frequency and time, and until recently "custom features" were one of the keys to making a great recognition system.
+
+The current state of the art (to my knowledge, at least) has recently moved to using deep neural networks for feature extraction, which I hope to show in a future post. For now, we will stick to very simple features, in order to show a "simplest working example".
+
+#-------------------------
+Briefly, if X is a vector of length 20, we wish to create a 2D array, STFT_X. If the FFT size is 10, and the overlap is .5 (5 samples), this means (in pseudocode):
+
+STFT_X[0, :] = FFT(X[0:9])
+
+STFT_X[1, :] = FFT(X[5:14])
+
+STFT_X[2, :] = FFT(X[10:19])
+We then have 3 FFT frames which have been extracted from the input sample X. For our feature extraction, we would next find peaks in each row of STFT_X.
+
+#----------------------------
+State Estimation $P(S | O)$ - can be useful if you have prior info about what states mean and create the state probabilities yourself.
+Path Estimation - given observations, what is the most likely "state path"? Not useful in our case, and not even implemented here!
+Maximum Likelihood Estimation $P(O | \lambda)$ - learn the HMM parameters $\lambda$ which maximize the probability of observations. This is the primary method we will use.
+The STFT is usually a crucial element of most DSP pipelines, and highly efficient routines are available to compute this (see FFTW, which numpy wraps). Though I have implemented my own STFT here, it is also possible to use matplotlib's specgram function instead.

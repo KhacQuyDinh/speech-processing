@@ -1,4 +1,3 @@
-#test_gender.py
 import os
 import cPickle
 import numpy as np

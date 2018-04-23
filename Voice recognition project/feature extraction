@@ -1,0 +1,25 @@
+#MFCC (or deep NN/automatic feature extraction) works for many speaker.
+all_obs = []
+for i in range(data.shape[0]):
+    #convert to frequency
+    d = np.abs(stft(data[i, :]))
+    n_dim = 6
+    obs = np.zeros((n_dim, d.shape[0]))
+    for r in range(d.shape[0]):
+        _, t = peakfind(d[r, :], n_peaks=n_dim)
+        obs[:, r] = t.copy()
+    if i % 10 == 0:
+        print("Processed obs %s" % i)
+    all_obs.append(obs)
+    
+all_obs = np.atleast_3d(all_obs)
+
+#create test and train = index in all_labels
+from sklearn.cross_validation import StratifiedShuffleSplit
+sss = StratifiedShuffleSplit(all_labels, test_size=0.1, random_state=0)
+
+#normalize
+for n,i in enumerate(all_obs):
+    all_obs[n] /= all_obs[n].sum(axis=0)
+
+
