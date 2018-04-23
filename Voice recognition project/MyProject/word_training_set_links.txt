@@ -1,0 +1,15 @@
+đóng/w0.wav
+đóng/w1.wav
+đóng/w2.wav
+đóng/w3.wav
+đóng/w4.wav
+mở/w0.wav
+mở/w1.wav
+mở/w2.wav
+mở/w3.wav
+mở/w4.wav
+xin chào/w0.wav
+xin chào/w1.wav
+xin chào/w2.wav
+xin chào/w3.wav
+xin chào/w4.wav
