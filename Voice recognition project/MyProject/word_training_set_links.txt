@@ -1,13 +1,78 @@
-đóng/w0.wav
-đóng/w1.wav
-đóng/w2.wav
-đóng/w3.wav
-đóng/w4.wav
-mở/w0.wav
-mở/w1.wav
-mở/w2.wav
-mở/w3.wav
-mở/w4.wav
+đóng cửa sổ dòng lệnh/w0.wav
+đóng cửa sổ dòng lệnh/w1.wav
+đóng cửa sổ dòng lệnh/w2.wav
+đóng cửa sổ dòng lệnh/w3.wav
+đóng cửa sổ dòng lệnh/w4.wav
+mở trình duyệt/w0.wav
+mở trình duyệt/w1.wav
+mở trình duyệt/w2.wav
+mở trình duyệt/w3.wav
+mở trình duyệt/w4.wav
+đóng trình duyệt/w0.wav
+đóng trình duyệt/w1.wav
+đóng trình duyệt/w2.wav
+đóng trình duyệt/w3.wav
+đóng trình duyệt/w4.wav
+giảm âm lượng/w0.wav
+giảm âm lượng/w1.wav
+giảm âm lượng/w2.wav
+giảm âm lượng/w3.wav
+giảm âm lượng/w4.wav
+tăng âm lượng/w0.wav
+tăng âm lượng/w1.wav
+tăng âm lượng/w2.wav
+tăng âm lượng/w3.wav
+tăng âm lượng/w4.wav
+mở bản đồ/w0.wav
+mở bản đồ/w1.wav
+mở bản đồ/w2.wav
+mở bản đồ/w3.wav
+mở bản đồ/w4.wav
+mở cửa sổ dòng lệnh/w0.wav
+mở cửa sổ dòng lệnh/w1.wav
+mở cửa sổ dòng lệnh/w2.wav
+mở cửa sổ dòng lệnh/w3.wav
+mở cửa sổ dòng lệnh/w4.wav
+mở trình nghe nhạc/w0.wav
+mở trình nghe nhạc/w1.wav
+mở trình nghe nhạc/w2.wav
+mở trình nghe nhạc/w3.wav
+mở trình nghe nhạc/w4.wav
+mở facebook/w0.wav
+mở facebook/w1.wav
+mở facebook/w2.wav
+mở facebook/w3.wav
+mở facebook/w4.wav
+mở trình nghe nhạc/w0.wav
+mở trình nghe nhạc/w1.wav
+mở trình nghe nhạc/w2.wav
+mở trình nghe nhạc/w3.wav
+mở trình nghe nhạc/w4.wav
+mở trình soạn thảo văn bản/w0.wav
+mở trình soạn thảo văn bản/w1.wav
+mở trình soạn thảo văn bản/w2.wav
+mở trình soạn thảo văn bản/w3.wav
+mở trình soạn thảo văn bản/w4.wav
+unknown/w0.wav
+unknown/w1.wav
+unknown/w2.wav
+unknown/w3.wav
+unknown/w4.wav
+cài đặt/w0.wav
+cài đặt/w1.wav
+cài đặt/w2.wav
+cài đặt/w3.wav
+cài đặt/w4.wav
+hiển thị lịch/w0.wav
+hiển thị lịch/w1.wav
+hiển thị lịch/w2.wav
+hiển thị lịch/w3.wav
+hiển thị lịch/w4.wav
+hiển thị thời gian/w0.wav
+hiển thị thời gian/w1.wav
+hiển thị thời gian/w2.wav
+hiển thị thời gian/w3.wav
+hiển thị thời gian/w4.wav
 xin chào/w0.wav
 xin chào/w1.wav
 xin chào/w2.wav

@@ -6,8 +6,8 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
-RECORD_SECONDS = 1
-WAVE_OUTPUT_FILENAME = "word_training_set/xin chào/w"
+RECORD_SECONDS = 2
+WAVE_OUTPUT_FILENAME = "word_training_set/mở bản đồ/w"
 
 index = 0
 
@@ -27,9 +27,7 @@ while True:
 
 	for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
 	    data = stream.read(CHUNK)
-	    #frame_length += len(data)
 	    frames.append(data)
-	#print(frame_length)		
 	print("* done recording")
 	stream.stop_stream()
 	stream.close()

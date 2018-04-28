@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import wolframalpha
 import wikipedia
 import wx

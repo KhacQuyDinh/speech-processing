@@ -2,7 +2,6 @@ import wx
 from espeak import espeak
 import wikipedia
 import wolframalpha
-from espeak import espeak
 import wolframalpha
 
 app_id = "YOUR APP ID"
