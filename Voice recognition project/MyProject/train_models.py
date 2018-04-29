@@ -28,7 +28,7 @@ for path in file_paths:
     path = path.strip()   
     print path
     
-    # read the audio
+    # read audio the
     sr,audio = read(source + path)
    
     # extract 40 dimensional MFCC & delta MFCC features

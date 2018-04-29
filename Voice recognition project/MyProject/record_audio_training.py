@@ -6,8 +6,8 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
-RECORD_SECONDS = 2
-WAVE_OUTPUT_FILENAME = "word_training_set/mở bản đồ/w"
+RECORD_SECONDS = 2.5
+WAVE_OUTPUT_FILENAME = "word_training_set/mở trình duyệt/w"
 
 index = 0
 

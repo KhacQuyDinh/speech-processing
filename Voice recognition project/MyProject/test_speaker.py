@@ -30,7 +30,7 @@ import psutil
 def closeFirefox():
 	pid_firefox = [p.info['pid'] for p in psutil.process_iter(attrs=['pid', 'name']) if 'firefox' in p.info['name']]
 	for p in pid_firefox:
-		PSUTIl.Process(p).terminate()  
+		psutil.Process(p).terminate()  
 
 import webbrowser
 def openFirefox(link='https://google.com'):
@@ -95,7 +95,7 @@ def doCommand(cmd):
 		openVlc()
 	elif (cmd == 'khóa máy tính'):
 	 	blockComputer()
-	elif (cmd == 'cài đặt'):
+	elif (cmd == 'mở cài đặt'):
 	 	openSystemSettings()
 	elif (cmd == 'hiển thị lịch'):
 		displayCalendar()

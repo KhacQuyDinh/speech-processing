@@ -58,11 +58,11 @@ unknown/w1.wav
 unknown/w2.wav
 unknown/w3.wav
 unknown/w4.wav
-cài đặt/w0.wav
-cài đặt/w1.wav
-cài đặt/w2.wav
-cài đặt/w3.wav
-cài đặt/w4.wav
+mở cài đặt/w0.wav
+mở cài đặt/w1.wav
+mở cài đặt/w2.wav
+mở cài đặt/w3.wav
+mở cài đặt/w4.wav
 hiển thị lịch/w0.wav
 hiển thị lịch/w1.wav
 hiển thị lịch/w2.wav
