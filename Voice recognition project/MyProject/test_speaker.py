@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 import time
 
-#record user speech
+#libs to record user speech.
 import pyaudio
 import wave
 
@@ -19,11 +19,11 @@ RATE = 44100
 RECORD_SECONDS = 2.5
 WAVE_OUTPUT_FILENAME = "word_test_set/predict"
 
-#import tkMessageBox
+#import tkMessageBox.
 import Tkinter
 import tkMessageBox
 import subprocess
-from subprocess import call #to execute command in linux
+from subprocess import call #to execute command in linux.
 from subprocess import Popen
 import psutil
 
@@ -36,11 +36,11 @@ import webbrowser
 def openFirefox(link='https://google.com'):
 	webbrowser.get("firefox").open(link)
 
-#powered by pyalsaaudio which is running in kernel
+#powered by pyalsaaudio which is running in kernel.
 def decreaseVolumn(amount):
 	call(["amixer", "-D", "pulse", "sset", "Master", str(amount)+"%-"])
 
-#powered by pyalsaaudio which is running in kernel
+#powered by pyalsaaudio which is running in kernel.
 def increaseVolumn(amount):
 	call(["amixer", "-D", "pulse", "sset", "Master", str(amount)+"%+"])
 
@@ -59,7 +59,7 @@ def openSystemSettings():
 def displayCalendar():
 	call(["ncal"])
 
-#powered by xdotool
+#powered by xdotool.
 def closeTheActiverogram():
 	call(["xdotool","getwindowfocus","windowkill"])
 
@@ -82,9 +82,9 @@ def doCommand(cmd):
 	elif (cmd == 'đóng trình duyệt'):
 		closeFirefox()		
 	elif (cmd == 'giảm âm lượng'):
-		decreaseVolumn(2)
+		decreaseVolumn(2) #+2%
 	elif (cmd == 'tăng âm lượng'):
-		increaseVolumn(2)
+		increaseVolumn(2) #-2%
 	elif (cmd == 'mở bản đồ'):
 		openFirefox('https://www.google.com/maps')
 	elif (cmd == 'mở facebook'):
@@ -106,22 +106,22 @@ def doCommand(cmd):
 
 while True:
 	#INIT MODELS
-	#path to training data
+	#path to training data.
 	modelpath = "word_models/"
 
 	test_file = "word_test_set_links.txt"        
 
-	#models from traning
+	#models from training.
 	gmm_files = [os.path.join(modelpath,fname) for fname in 
 		      os.listdir(modelpath) if fname.endswith('.gmm')]
 
-	#Load the Gaussian gender Models
+	#Load the Gaussian models.
 	models = [cPickle.load(open(fname,'r')) for fname in gmm_files]
 
 	words = [fname.split("/")[-1].split(".gmm")[0] for fname 
 		      in gmm_files]
 
-	#print all available cmds
+	#print all available cmds.
 	listw = ""
 	for i in range(len(words)):
 		listw += words[i] + " | "
@@ -147,31 +147,36 @@ while True:
 	stream.stop_stream()
 	stream.close()
 	p.terminate()
+
+	#when save the recorded audio?
 	wf = wave.open(WAVE_OUTPUT_FILENAME + ".wav", 'wb')
 	wf.setnchannels(CHANNELS)
 	wf.setsampwidth(p.get_sample_size(FORMAT))
 	wf.setframerate(RATE)
 	wf.writeframes(b''.join(frames))
+	isSaved = raw_input("Type: ")
 	wf.close()
 
-	#START PREDICT BY USING GMM WITH TRAINED MODEL
-	# Read the test directory and get the list of test audio files 
-	sr,audio = read("word_test_set/predict.wav")
-	#features
-	vector = extract_features(audio,sr)
+	#START PREDICT BY USING GMM WITH TRAINED MODELs
+	#read recorded audio files.
+	sr,amplitude = read("word_test_set/predict.wav")
+	#features.
+	vector = extract_features(amplitude,sr)
 	    
 	log_likelihood = np.zeros(len(models)) 
 
-	#checking with each model one by one	    
+	#checking with each model one by one.
+	#a model is equivalent to a word.    
 	for i in range(len(models)):
-		gmm    = models[i]         
+		gmm    = models[i]      
+		#compute probability of the vector under the models[i].   
 		scores = np.array(gmm.score(vector))
 		log_likelihood[i] = scores.sum()
 	  	
-	#log info
+	#LOG INFO
 	print log_likelihood
 	print np.amax(log_likelihood)
-	#end info
+	#END LOG INFO
 
 	spoken_word = ""
 	if (np.amax(log_likelihood) < -10000):
@@ -185,14 +190,14 @@ while True:
 	print "Spoken word: ", spoken_word
 	print "\n----------------------------------\n"
 
-	#process command
+	#PROCESS USER COMMAND
 	if (spoken_word != 'unknown'):
 		response = tkMessageBox.askquestion("Command", "Are you sure want to " + spoken_word)			
 		if (response == 'yes'):
 			doCommand(spoken_word)
-	#end process command
+	#END PROCESS USER COMMAND
 	
-	#wait key:
+	#WAIT KEY
 	#Enter to continue speech.
 	#q if want to finish.
 	isContinueRecording = True
@@ -202,7 +207,7 @@ while True:
 		if (name == 'q'):
 			isContinueRecording = False
 		break
-	#to exit recording
+	#to exit recording.
 	if (isContinueRecording == False):
 		break
 

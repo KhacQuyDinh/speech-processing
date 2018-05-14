@@ -7,9 +7,8 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
 RECORD_SECONDS = 2.5
-WAVE_OUTPUT_FILENAME = "word_training_set/mở trình duyệt/w"
-
-index = 0
+WAVE_OUTPUT_FILENAME = "word_training_set/đóng cửa sổ dòng lệnh/w"
+index = 16
 
 while True:
 	p = pyaudio.PyAudio()

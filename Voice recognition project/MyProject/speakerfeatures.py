@@ -3,6 +3,7 @@ import numpy as np
 from sklearn import preprocessing
 import python_speech_features as mfcc
 
+#delta MFCC features.
 def calculate_delta(array):
     """Calculate and returns the delta of given feature vector matrix"""
 
@@ -17,7 +18,7 @@ def calculate_delta(array):
                 first = 0
             else:
                 first = i-j
-            if i+j > rows -1:
+            if i+j > rows - 1:
                 second = rows -1
             else:
                 second = i+j
@@ -26,11 +27,12 @@ def calculate_delta(array):
         deltas[i] = ( array[index[0][0]]-array[index[0][1]] + (2 * (array[index[1][0]]-array[index[1][1]])) ) / 10
     return deltas
 
-def extract_features(audio,rate):
-    """extract 20 dim mfcc features from an audio, performs CMS and combines 
+#40 dimensional MFCC.
+def extract_features(amplitude,rate):
+    """extract 20 dim mfcc features from an amplitude, performs CMS and combines 
     delta to make it 40 dim feature vector"""    
     
-    mfcc_feat = mfcc.mfcc(audio,rate, 0.025, 0.01,20,appendEnergy = True)
+    mfcc_feat = mfcc.mfcc(amplitude,rate, 0.025, 0.01,20,appendEnergy = True)
     
     mfcc_feat = preprocessing.scale(mfcc_feat)
     delta = calculate_delta(mfcc_feat)
@@ -38,5 +40,5 @@ def extract_features(audio,rate):
     return combined
 #    
 if __name__ == "__main__":
-     print "In main, Call extract_features(audio,signal_rate) as parameters"
+     print "In main, Call extract_features(amplitude,signal_rate) as parameters"
      

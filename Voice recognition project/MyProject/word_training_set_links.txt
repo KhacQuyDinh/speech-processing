@@ -3,78 +3,210 @@
 đóng cửa sổ dòng lệnh/w2.wav
 đóng cửa sổ dòng lệnh/w3.wav
 đóng cửa sổ dòng lệnh/w4.wav
+đóng cửa sổ dòng lệnh/w5.wav
+đóng cửa sổ dòng lệnh/w6.wav
+đóng cửa sổ dòng lệnh/w7.wav
+đóng cửa sổ dòng lệnh/w8.wav
+đóng cửa sổ dòng lệnh/w9.wav
+đóng cửa sổ dòng lệnh/w10.wav
+đóng cửa sổ dòng lệnh/w11.wav
+đóng cửa sổ dòng lệnh/w12.wav
+đóng cửa sổ dòng lệnh/w13.wav
+đóng cửa sổ dòng lệnh/w14.wav
+đóng cửa sổ dòng lệnh/w15.wav
 mở trình duyệt/w0.wav
 mở trình duyệt/w1.wav
 mở trình duyệt/w2.wav
 mở trình duyệt/w3.wav
-mở trình duyệt/w4.wav
+mở trình duyệt/w5.wav
+mở trình duyệt/w6.wav
+mở trình duyệt/w7.wav
+mở trình duyệt/w8.wav
+mở trình duyệt/w9.wav
+mở trình duyệt/w10.wav
+mở trình duyệt/w11.wav
+mở trình duyệt/w12.wav
+mở trình duyệt/w13.wav
+mở trình duyệt/w14.wav
+mở trình duyệt/w15.wav
 đóng trình duyệt/w0.wav
 đóng trình duyệt/w1.wav
 đóng trình duyệt/w2.wav
 đóng trình duyệt/w3.wav
-đóng trình duyệt/w4.wav
+đóng trình duyệt/w5.wav
+đóng trình duyệt/w6.wav
+đóng trình duyệt/w7.wav
+đóng trình duyệt/w8.wav
+đóng trình duyệt/w9.wav
+đóng trình duyệt/w10.wav
+đóng trình duyệt/w11.wav
+đóng trình duyệt/w12.wav
+đóng trình duyệt/w13.wav
+đóng trình duyệt/w14.wav
+đóng trình duyệt/w15.wav
 giảm âm lượng/w0.wav
 giảm âm lượng/w1.wav
 giảm âm lượng/w2.wav
 giảm âm lượng/w3.wav
-giảm âm lượng/w4.wav
+giảm âm lượng/w5.wav
+giảm âm lượng/w6.wav
+giảm âm lượng/w7.wav
+giảm âm lượng/w8.wav
+giảm âm lượng/w9.wav
+giảm âm lượng/w10.wav
+giảm âm lượng/w11.wav
+giảm âm lượng/w12.wav
+giảm âm lượng/w13.wav
+giảm âm lượng/w14.wav
+giảm âm lượng/w15.wav
 tăng âm lượng/w0.wav
 tăng âm lượng/w1.wav
 tăng âm lượng/w2.wav
 tăng âm lượng/w3.wav
-tăng âm lượng/w4.wav
+tăng âm lượng/w5.wav
+tăng âm lượng/w6.wav
+tăng âm lượng/w7.wav
+tăng âm lượng/w8.wav
+tăng âm lượng/w9.wav
+tăng âm lượng/w10.wav
+tăng âm lượng/w11.wav
+tăng âm lượng/w12.wav
+tăng âm lượng/w13.wav
+tăng âm lượng/w14.wav
+tăng âm lượng/w15.wav
 mở bản đồ/w0.wav
 mở bản đồ/w1.wav
 mở bản đồ/w2.wav
 mở bản đồ/w3.wav
-mở bản đồ/w4.wav
+mở bản đồ/w5.wav
+mở bản đồ/w6.wav
+mở bản đồ/w7.wav
+mở bản đồ/w8.wav
+mở bản đồ/w9.wav
+mở bản đồ/w10.wav
+mở bản đồ/w11.wav
+mở bản đồ/w12.wav
+mở bản đồ/w13.wav
+mở bản đồ/w14.wav
+mở bản đồ/w15.wav
 mở cửa sổ dòng lệnh/w0.wav
 mở cửa sổ dòng lệnh/w1.wav
 mở cửa sổ dòng lệnh/w2.wav
 mở cửa sổ dòng lệnh/w3.wav
-mở cửa sổ dòng lệnh/w4.wav
-mở trình nghe nhạc/w0.wav
-mở trình nghe nhạc/w1.wav
-mở trình nghe nhạc/w2.wav
-mở trình nghe nhạc/w3.wav
-mở trình nghe nhạc/w4.wav
+mở cửa sổ dòng lệnh/w5.wav
+mở cửa sổ dòng lệnh/w6.wav
+mở cửa sổ dòng lệnh/w7.wav
+mở cửa sổ dòng lệnh/w8.wav
+mở cửa sổ dòng lệnh/w9.wav
+mở cửa sổ dòng lệnh/w10.wav
+mở cửa sổ dòng lệnh/w11.wav
+mở cửa sổ dòng lệnh/w12.wav
+mở cửa sổ dòng lệnh/w13.wav
+mở cửa sổ dòng lệnh/w14.wav
+mở cửa sổ dòng lệnh/w15.wav
 mở facebook/w0.wav
 mở facebook/w1.wav
 mở facebook/w2.wav
 mở facebook/w3.wav
 mở facebook/w4.wav
+mở facebook/w5.wav
+mở facebook/w6.wav
+mở facebook/w7.wav
+mở facebook/w8.wav
+mở facebook/w9.wav
+mở facebook/w10.wav
+mở facebook/w11.wav
+mở facebook/w12.wav
+mở facebook/w13.wav
+mở facebook/w14.wav
+mở facebook/w15.wav
 mở trình nghe nhạc/w0.wav
 mở trình nghe nhạc/w1.wav
 mở trình nghe nhạc/w2.wav
 mở trình nghe nhạc/w3.wav
-mở trình nghe nhạc/w4.wav
+mở trình nghe nhạc/w5.wav
+mở trình nghe nhạc/w6.wav
+mở trình nghe nhạc/w7.wav
+mở trình nghe nhạc/w8.wav
+mở trình nghe nhạc/w9.wav
+mở trình nghe nhạc/w10.wav
+mở trình nghe nhạc/w11.wav
+mở trình nghe nhạc/w12.wav
+mở trình nghe nhạc/w13.wav
+mở trình nghe nhạc/w14.wav
+mở trình nghe nhạc/w15.wav
 mở trình soạn thảo văn bản/w0.wav
 mở trình soạn thảo văn bản/w1.wav
 mở trình soạn thảo văn bản/w2.wav
 mở trình soạn thảo văn bản/w3.wav
-mở trình soạn thảo văn bản/w4.wav
-unknown/w0.wav
-unknown/w1.wav
-unknown/w2.wav
-unknown/w3.wav
-unknown/w4.wav
+mở trình soạn thảo văn bản/w5.wav
+mở trình soạn thảo văn bản/w6.wav
+mở trình soạn thảo văn bản/w7.wav
+mở trình soạn thảo văn bản/w8.wav
+mở trình soạn thảo văn bản/w9.wav
+mở trình soạn thảo văn bản/w10.wav
+mở trình soạn thảo văn bản/w11.wav
+mở trình soạn thảo văn bản/w12.wav
+mở trình soạn thảo văn bản/w13.wav
+mở trình soạn thảo văn bản/w14.wav
+mở trình soạn thảo văn bản/w15.wav
 mở cài đặt/w0.wav
 mở cài đặt/w1.wav
 mở cài đặt/w2.wav
 mở cài đặt/w3.wav
-mở cài đặt/w4.wav
+mở cài đặt/w5.wav
+mở cài đặt/w6.wav
+mở cài đặt/w7.wav
+mở cài đặt/w8.wav
+mở cài đặt/w9.wav
+mở cài đặt/w10.wav
+mở cài đặt/w11.wav
+mở cài đặt/w12.wav
+mở cài đặt/w13.wav
+mở cài đặt/w14.wav
+mở cài đặt/w15.wav
 hiển thị lịch/w0.wav
 hiển thị lịch/w1.wav
 hiển thị lịch/w2.wav
 hiển thị lịch/w3.wav
-hiển thị lịch/w4.wav
+hiển thị lịch/w5.wav
+hiển thị lịch/w6.wav
+hiển thị lịch/w7.wav
+hiển thị lịch/w8.wav
+hiển thị lịch/w9.wav
+hiển thị lịch/w10.wav
+hiển thị lịch/w11.wav
+hiển thị lịch/w12.wav
+hiển thị lịch/w13.wav
+hiển thị lịch/w14.wav
+hiển thị lịch/w15.wav
 hiển thị thời gian/w0.wav
 hiển thị thời gian/w1.wav
 hiển thị thời gian/w2.wav
 hiển thị thời gian/w3.wav
-hiển thị thời gian/w4.wav
+hiển thị thời gian/w5.wav
+hiển thị thời gian/w6.wav
+hiển thị thời gian/w7.wav
+hiển thị thời gian/w8.wav
+hiển thị thời gian/w9.wav
+hiển thị thời gian/w10.wav
+hiển thị thời gian/w11.wav
+hiển thị thời gian/w12.wav
+hiển thị thời gian/w13.wav
+hiển thị thời gian/w14.wav
+hiển thị thời gian/w15.wav
 xin chào/w0.wav
 xin chào/w1.wav
 xin chào/w2.wav
 xin chào/w3.wav
-xin chào/w4.wav
+xin chào/w5.wav
+xin chào/w6.wav
+xin chào/w7.wav
+xin chào/w8.wav
+xin chào/w9.wav
+xin chào/w10.wav
+xin chào/w11.wav
+xin chào/w12.wav
+xin chào/w13.wav
+xin chào/w14.wav
+xin chào/w15.wav
