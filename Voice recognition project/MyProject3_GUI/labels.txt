@@ -1,0 +1,15 @@
+đóng cửa sổ dòng lệnh
+mở trình duyệt
+đóng trình duyệt
+giảm âm lượng
+tăng âm lượng
+mở bản đồ
+mở cửa sổ dòng lệnh
+mở facebook
+mở trình nghe nhạc
+mở trình soạn thảo văn bản
+mở cài đặt
+hiển thị lịch
+hiển thị thời gian
+xin chào
+khóa máy tính
